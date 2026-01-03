@@ -6,7 +6,7 @@ import Main from './Components/Main';
 function App() {
   return (
     <>
-      <Header/>
+      <Header title="Word Counter"/>
       <Main/>
       <Footer/>
     </>
