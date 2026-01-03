@@ -11,10 +11,11 @@ export default function Main() {
     setText(newText);
   }
   const makeLowerCase=()=>{
-
+    var newText=text.toLowerCase();
+    setText(newText);
   }
   const clearText=()=>{
-    
+    setText("");
   }
   return (
     <div>
